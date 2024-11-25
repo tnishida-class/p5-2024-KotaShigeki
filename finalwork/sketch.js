@@ -107,7 +107,7 @@ function updateBall(maxR) {
 
 function drawBall() {
   if (ballStopped && flashing) {
-    if (isLit) {
+    if (lighting) {
       fill(255, 0, 0);  // 点灯時は赤色
     } else {
       fill(100);  // 消灯時は灰色
